@@ -32,6 +32,8 @@
                     <div id="logo"> <a href="https://sarjanamalam.com"><span
                                 class="logo-default">sarjanamalam.</span><span
                                 class="logo-dark">sarjanamalam.</span></a> </div>
+                    <div id="mainMenu-trigger"> <a class="lines-button x"><span class="lines"></span></a>
+                    </div>
                     <div id="mainMenu">
                         <div class="container">
                             <nav>
