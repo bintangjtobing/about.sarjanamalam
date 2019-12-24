@@ -14,4 +14,8 @@ class companyController extends Controller
     {
         return view('company.blog');
     }
+    public function event()
+    {
+        return view('company.event');
+    }
 }

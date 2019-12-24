@@ -19,3 +19,4 @@ Route::get('/clear-cache', function () {
 });
 Route::get('/', 'companyController@about');
 Route::get('/blog', 'companycontroller@blog');
+Route::get('/event', 'companycontroller@event');

@@ -69,3 +69,12 @@
 #header #header-wrap #logo a span {
     font-size: 30px !important;
 }
+
+.lead {
+    color: #000 !important;
+}
+
+.imgevent {
+    height: 100%;
+    width: 200px;
+}
