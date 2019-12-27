@@ -31,16 +31,15 @@
     height: 100%;
     content: ' ';
     z-index: 0;
-    background-color: #0e1624;
+    /* background-color: #0e1624 !important; */
     /* MOUNTAIN IMG */
-    background-image: url("https://c.pxhere.com/images/5d/36/af022607530f20ce1c9781e6d648-1428687.jpg!d");
+    background-image: url("/storage/cerita.jpg");
 
     background-attachment: fixed;
     background-size: cover;
     /* background-image: url('/storage/img/owl.svg'); */
     height: 100% !important;
     clear: both;
-    opacity: .5
 }
 
 .grid-item h4 {
@@ -71,7 +70,7 @@
 }
 
 .lead {
-    color: #000 !important;
+    color: #000;
 }
 
 .imgevent {

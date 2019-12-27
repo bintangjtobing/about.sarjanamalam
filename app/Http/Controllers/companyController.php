@@ -18,17 +18,4 @@ class companyController extends Controller
     {
         return view('company.event');
     }
-
-
-    public function tahunbaru()
-    {
-        $cek_tanggal = date('d - M - Y');
-        if ($cek_tanggal == '01 - 01 - 2020') {
-            echo ('SELAMAT TAHUN BARU 2020 BAGI YANG MERAYAKAN! </br>');
-            echo ('Selamat tahun baru dan semoga kita terbebas dari keraguan </br> dan ketakutan, dan akan selalu digantikan oleh keberanian dan kebahagiaan. ');
-        } else {
-            echo ('Belum tahun baru! Sabar ya. Udah ga sabar mau main kembang api ya? </br>');
-            echo ('Ini masih tanggal ' . $cek_tanggal);
-        }
-    }
 }
