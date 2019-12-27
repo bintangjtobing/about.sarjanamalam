@@ -18,5 +18,6 @@ Route::get('/clear-cache', function () {
     return 'Sarjanamalam have already done optimized'; //Return anything
 });
 Route::get('/', 'companyController@about');
-Route::get('/blog', 'companycontroller@blog');
-Route::get('/event', 'companycontroller@event');
+Route::get('/blog', 'companyController@blog');
+Route::get('/event', 'companyController@event');
+Route::get('/ucapan', 'companyController@tahunbaru');
