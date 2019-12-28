@@ -33,7 +33,7 @@
     z-index: 0;
     /* background-color: #0e1624 !important; */
     /* MOUNTAIN IMG */
-    background-image: url("/storage/cerita.jpg");
+    background-image: url("/storage/blog/stories.jpg");
 
     background-attachment: fixed;
     background-size: cover;
@@ -99,4 +99,54 @@
 .card-body .alert a {
     color: #fff;
     font-weight: 800;
+}
+
+.card-text-black {
+    color: #121212;
+}
+
+.card-title-strong {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.card-link-karir {
+    font-weight: 600;
+}
+
+.card-body a {
+    color: #2485c1 !important;
+}
+
+.card-body a:hover {
+    color: #3698d4 !important;
+}
+
+.storiesimg {
+    background-image: url("/storage/blog/stories.jpg");
+    background-size: cover;
+    height: 35rem;
+}
+
+.storiesimg .container {
+    visibility: hidden;
+}
+
+.sidebar-stories {
+    font-weight: 600;
+    color: #5f6368;
+    font-size: 12px;
+}
+
+.sub-title-stories {
+    font-size: 1.4375rem;
+    line-height: 1.875rem;
+    color: #202124;
+}
+
+.paragraph-stories {
+    color: #202124;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: .01562rem;
 }

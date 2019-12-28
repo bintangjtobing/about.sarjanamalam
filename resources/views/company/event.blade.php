@@ -38,9 +38,8 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
                     </div>
                 </div>
             </div>
@@ -53,9 +52,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -68,9 +67,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -83,9 +82,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -105,9 +104,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -120,9 +119,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -135,9 +134,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -150,9 +149,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -165,9 +164,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -180,9 +179,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -195,9 +194,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -210,9 +209,9 @@ membekali calon sarjana. Seminar')
                         <p class="card-text">Rp. 120.000</p>
                     </div>
                     <div class="card-body">
-                        <div class="alert alert-success" role="alert">
-                            Masih tersedia! <a href="#">Daftar?</a>
-                        </div>
+
+                        Masih tersedia! <a href="#">Daftar?</a>
+
                     </div>
                 </div>
             </div>
@@ -258,24 +257,51 @@ membekali calon sarjana. Seminar')
                     <span class="text-light">Create amam ipsum dolor sit amet, Beautiful nature, and rare feathers!.
                     </span>
                 </div>
-                <form class="widget-contact-form text-center" action="include/event-register-form.php" role="form"
-                    method="post">
+                @if(session('sukses'))
+                <div class="form-group m-b-5">
+                    <div class="alert alert-success" role="alert">
+                        <strong>Permintaan sharing event kamu berhasil dikirim!</strong><br>{{session('sukses')}} Terima
+                        kasih.
+                    </div>
+                </div>
+                @endif
+                <form action="/post-event" method="post">
+                    {{ csrf_field() }}
                     <div class="form-group m-b-5">
-                        <input type="text" aria-required="true" name="widget-contact-form-name"
-                            class="form-control form-control-sm required name" placeholder="Your Name*">
+                        <input type="text" name="nama_event" placeholder="Judul event*"
+                            class="form-control form-control-sm required name">
                     </div>
                     <div class="form-group m-b-5">
-                        <input type="text" aria-required="true" name="widget-contact-form-phone"
-                            class="form-control form-control-sm required phone" placeholder="Your Phone Number*">
+                        <input type="text" aria-required="true" name="nama_pic"
+                            class="form-control form-control-sm required name" placeholder="Nama PIC*">
                     </div>
                     <div class="form-group m-b-5">
-                        <input type="email" aria-required="true" name="widget-contact-form-email"
-                            class="form-control form-control-sm required email" placeholder="Your Email">
+                        <input type="text" aria-required="true" name="nohp_pic"
+                            class="form-control form-control-sm required" placeholder="Nomor Telepon PIC*">
                     </div>
-                    <button class="btn btn-block" type="submit" id="form-submit">APPLY NOW</button>
+                    <div class="form-group m-b-5">
+                        <input type="email" aria-required="true" name="email_pic"
+                            class="form-control form-control-sm required" placeholder="Email PIC*">
+                    </div>
+                    <div class="form-group m-b-5">
+                        <select aria-required="true" name="kategori_event"
+                            class="form-control form-control-sm required ticket-type">
+                            <option selected>Tipe Event</option>
+                            <option value="Seminar">Seminar</option>
+                            <option value="Workshop">Workshop</option>
+                            <option value="Festival">Festival</option>
+                            <option value="Olimpiade">Olimpiade</option>
+                            <option value="Kompetisi">Kompetisi</option>
+                        </select>
+                    </div>
+                    <div class="form-group m-b-5">
+                        <textarea name="deskripsi_event" class="form-control form-control-sm required" cols="30"
+                            rows="4" placeholder="Deskripsi kan event kamu disini..."></textarea>
+                    </div>
+                    <button class="btn btn-block btn-success" type="submit">Request Now</button>
                 </form>
-                <p class="p-20 m-b-0"><b>Note:</b> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                    consectetur, adipisci velit.</p>
+                {{-- <p class="p-20 m-b-0"><b>Note:</b> Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                    consectetur, adipisci velit.</p> --}}
             </div>
         </div>
     </div>

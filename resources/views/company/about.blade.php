@@ -18,6 +18,8 @@
     <link href="{!!asset('css/new/css/style.css')!!}" rel="stylesheet">
     <link href="{!!asset('css/new/css/red.css')!!}" rel="stylesheet">
     <link href="{!!asset('css/new/css/event-style.css')!!}" rel="stylesheet">
+    <link href="{!!asset('css/new/css/font-awesome.css')!!}" rel="stylesheet">
+    <link rel="stylesheet" href="{!!asset('css/themify-icons.css')!!}">
     <link rel="stylesheet" href="{!!asset('css/new/css/custom.css')!!}">
 </head>
 
@@ -38,7 +40,7 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="/" class="@yield('aktiftentang')">Tentang</a></li>
+                                    <li><a href="/tentang-sarjana-malam" class="@yield('aktiftentang')">Tentang</a></li>
                                     {{-- <li><a href="/yang-kami-buat" class="@yield('aktifproduk')">Produk Kami</a></li>
                                     <li><a href="/yang-kami-buat" class="@yield('aktifcerita')">Cerita Kami</a></li> --}}
                                 </ul>
@@ -51,6 +53,32 @@
         </header>
     </div>
     @yield('content')
+    <section class="p-t-18 p-b-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-lg-12 m-b-30">
+                            <h4>Ikuti kami di sosial media</h4>
+                            <div class="social-icons social-icons-light social-icons-colored-hover">
+                                <ul>
+                                    <li class="social-facebook"><a href="https://facebook.com/sarjanamalamdotcom"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li class="social-twitter"><a href="https://twitter.com/sarjanamalamcom"><i
+                                                class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li class="social-instagram"><a href="https://instagram.com/sarjanamalamdotcom"><i
+                                                class="fab fa-instagram"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer id="footer">
         <div class="footer-content">
             <div class="container">
@@ -61,12 +89,12 @@
                                 <div class="widget">
                                     <div class="widget-title">Lebih dari kami</div>
                                     <ul class="list">
-                                        <li><a href="#">Hubungi kami</a></li>
+                                        <li><a href="/hubungi-sarjanamalam">Hubungi kami</a></li>
                                         <li><a href="#">Relasi sponsor</a></li>
                                         <li><a href="/event">Event</a></li>
-                                        <li><a href="#">Karir</a></li>
+                                        <li><a href="/karir-sarjanamalam">Karir</a></li>
                                         <li><a href="/blog">Blog</a></li>
-                                        <li><a href="#">Meet with Sarjanamalam.</a></li>
+                                        <li><a href="/meet-sarjanamalam">Meet with Sarjanamalam.</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -105,9 +133,15 @@
     </footer>
 
     </div>
+    <a id="scrollTop"><span class="ti-angle-up"></span></a>
     <script src="{!!asset('js/jquery.js')!!}"></script>
     <script src="{!!asset('js/plugins.js')!!}"></script>
     <script src="{!!asset('js/functions.js')!!}"></script>
+    <script type='text/javascript'
+        src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAZIus-_huNW25Jl7RPmHgoGZjD5udgBMI'>
+    </script>
+    <script src="{!!asset('js/gmap3.min.js')!!}"></script>
+    <script src="{!!asset('js/map-styles.js')!!}"></script>
     <script src="{!!asset('css/new/plugins/js/infinite-scroll.min.js')!!}"></script>
 </body>
 
