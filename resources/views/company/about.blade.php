@@ -117,7 +117,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4">
-                        <div class="copyright-text text-left"><img src="{!!asset('storage/img/footer/footer.svg')!!}"
+                        <div class="copyright-text text-left"><img src="{!!asset('storage/img/footer.png')!!}"
                                 alt="Logo sarjanamalam." class="img-footer-belong"></div>
                     </div>
                     <div class="col-lg-8">
