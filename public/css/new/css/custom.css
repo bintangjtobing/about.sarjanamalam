@@ -150,3 +150,14 @@
     line-height: 1.5rem;
     letter-spacing: .01562rem;
 }
+
+.imgteamcerita {
+    filter: grayscale(100%);
+    border-bottom: 2px solid #2485c1 !important;
+}
+
+.imgteamcerita:hover {
+    filter: grayscale(0%);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
