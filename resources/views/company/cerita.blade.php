@@ -64,4 +64,133 @@ sarjanamalam sejak Bintang Tobing menemukan ini ditahun 2019')
         </div>
     </div>
 </section>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="offset-3 col-lg-9">
+                <h1 class="text-center">Our team</h1>
+                <div class="row">
+                    <div class="row team-members m-b-40">
+                        <div class="col-lg-3">
+                            <div class="team-member">
+                                <div class="team-image">
+                                    <img src="{!!asset('storage/team/ceo.png')!!}">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>Bintang Tobing</h3>
+                                    <span>Chief Executive Officer<br>Founder</span>
+                                    <p>The most happiest time of the day!. Praesent tristique hendrerit ex ut laoreet.
+                                    </p>
+                                    <div class="align-center">
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://facebook.com">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <span>Facebook</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://twitter.com"
+                                            data-width="100">
+                                            <i class="fab fa-twitter"></i>
+                                            <span>Twitter</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://instagram.com"
+                                            data-width="118">
+                                            <i class="fab fa-instagram"></i>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="team-member">
+                                <div class="team-image">
+                                    <img src="{!!asset('storage/team/cfo.png')!!}">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>Rino Gazali</h3>
+                                    <span>Chief Finance Officer<br>Co Founder</span>
+                                    <p>The most happiest time of the day!. Praesent tristique hendrerit ex ut laoreet.
+                                    </p>
+                                    <div class="align-center">
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://facebook.com">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <span>Facebook</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://twitter.com"
+                                            data-width="100">
+                                            <i class="fab fa-twitter"></i>
+                                            <span>Twitter</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://instagram.com"
+                                            data-width="118">
+                                            <i class="fab fa-instagram"></i>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="team-member">
+                                <div class="team-image">
+                                    <img src="{!!asset('storage/team/coo.png')!!}">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>Riki Ariandu</h3>
+                                    <span>Chief Operation Officer<br>Co Founder</span>
+                                    <p>The most happiest time of the day!. Praesent tristique hendrerit ex ut laoreet.
+                                    </p>
+                                    <div class="align-center">
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://facebook.com">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <span>Facebook</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://twitter.com"
+                                            data-width="100">
+                                            <i class="fab fa-twitter"></i>
+                                            <span>Twitter</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://instagram.com"
+                                            data-width="118">
+                                            <i class="fab fa-instagram"></i>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="team-member">
+                                <div class="team-image">
+                                    <img src="{!!asset('storage/team/cdo.png')!!}">
+                                </div>
+                                <div class="team-desc">
+                                    <h3>Boby Wijaya</h3>
+                                    <span>Chief Design Officer<br>Co Founder</span>
+                                    <p>The most happiest time of the day!. Praesent tristique hendrerit ex ut laoreet.
+                                    </p>
+                                    <div class="align-center">
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://facebook.com">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <span>Facebook</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://twitter.com"
+                                            data-width="100">
+                                            <i class="fab fa-twitter"></i>
+                                            <span>Twitter</span>
+                                        </a>
+                                        <a class="btn btn-xs btn-slide btn-light" href="https://instagram.com"
+                                            data-width="118">
+                                            <i class="fab fa-instagram"></i>
+                                            <span>Instagram</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
