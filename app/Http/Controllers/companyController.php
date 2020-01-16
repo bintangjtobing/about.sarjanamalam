@@ -47,7 +47,7 @@ class companyController extends Controller
         $post->updated_by = $request->getClientIp();
 
         if ($request->hasFile('picevent')) {
-            $request->file('picevent')->move('event/img/', $request->file('picevent')->getClientOriginalName());
+            $request->file('picevent')->move('eventstorage/img/', $request->file('picevent')->getClientOriginalName());
             $post->picevent = $request->file('picevent')->getClientOriginalName();
             $post->save();
             // dd($post);
