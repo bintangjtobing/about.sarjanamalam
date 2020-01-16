@@ -25,3 +25,4 @@ Route::get('/karir-sarjanamalam', 'companyController@karir');
 Route::get('/hubungi-sarjanamalam', 'companyController@hubungi');
 Route::get('/cerita-sarjanamalam', 'companyController@cerita');
 Route::post('/kirim-pesan', 'companyController@kirimpesan');
+Route::get('/request-ad-event', 'companyController@requestevent');
